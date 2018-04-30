@@ -1,0 +1,89 @@
+/* #02b3e4
+#2d3c49 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+body {
+  width: 95%;
+  margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49; }
+h1 { font-size: 4em; }
+h2 { font-size: 3em; }
+h3 { font-size: 2.25em; }
+h4 { font-size: 1.75em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; } 
+p {
+  font-family: arial, sans-serif; }
+header {
+  padding: 20px 0;
+  text-transform: uppercase; }
+hr {
+  display: block;
+  height: 5px;
+  background-color: #7d97ad; }
+#brand {
+  display: block; 
+  margin: 15px auto; }
+#name {
+  display: block;
+  text-align: center;
+  margin: 15px auto; }
+#featuredImage {
+  display: block;
+  width: 100%; }
+#portfolioWork { 
+  padding: 50px 0; 
+  float: left; 
+  width: 100%;  }
+#portfolioWork h3 { 
+  padding: 25px 0; }
+#portfolioWork h2 { 
+  text-transform: uppercase;
+  text-align: center; }
+.app { 
+  float: left;
+  width: 100%; }
+.app:nth-child(2), .app:nth-child(3) {
+  margin-right: 3.5%; }
+.app h2 a {
+  color: #2d3c49; }
+.app:last-child {
+  margin-right: 0; }
+.app img {
+  margin: 0;
+  width: 100%; }
+.app a {
+  text-decoration: none;
+  color: #2d3c49; }
+footer {
+  clear: both;
+  width: 100%;
+  padding: 50px 0 25px;
+  color: red; }
+footer a {
+  text-decoration: none;
+  color: #2d3c49; }
+
+
+
+@media (min-width: 968px) {
+  #brand {
+    display: inline-block;
+    float: left;
+    width: 75px; 
+    margin: 15px auto; }
+  #name { 
+    display: inline-block;
+    float: right;
+    text-align: right; }
+  hr {
+    margin: 25px 0;
+    width: 100%; }
+  .app { 
+    float: left;
+    width: 31%; }
+}
